@@ -10,8 +10,8 @@
 
 寄存器：
     寄存器的访问频率远远高于储存器的
-    8个通用寄存器：
-EAX,EBC,ECX,EDX，ESP,EBP,ESI,EDI
+    8个通用寄存器：（算数和数据传输）
+EAX,EBC,ECX,EDX，前四个内部为（（AX拆分为AH  AL  16bit） AH 8bit AL8bit）EBX，ECX，EDX一样。      ESP,EBP,ESI,EDI
     6个段寄存器：
 ES、CS、SS、DS、FS和GS
 
